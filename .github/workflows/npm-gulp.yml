@@ -24,7 +24,5 @@ jobs:
 
     - name: Build
       run: |
-        npm install --save-dev gulp
-        npm install --global gulp-cli
         npm install
-        gulp
+        gulp deploy
